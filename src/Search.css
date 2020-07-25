@@ -1,0 +1,138 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    text-align: right!important;
+}
+.find{
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin: 10px;
+    width: 297px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #BDBDBD;
+    transition: 0.8s;
+}
+.widht{
+    width: 100%!important;
+}
+.pClass{
+    display: inline-block;
+}
+.location{
+    border-right: 1px solid #F2F2F2;
+}
+.searchIcon{
+    color: rgba(235, 87, 87, 0.9);
+}
+.add{
+    display: none;
+}
+.addNew{
+    display: inline-block!important;
+    width: 30%;
+    margin: 20px;
+}.hidden{
+    display: none;
+}
+input{
+    border: none;
+    width: 100%;
+    padding: 8px;
+}
+label{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 9px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #333333;
+    position: relative;
+    top: -17px;
+    left: 50px;
+}
+.selectCity{
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: left;
+    width: 40%;
+    transition: 0.8s;
+}
+.selectCity p{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4F4F4F;
+}
+.selectCity p:hover{
+    cursor: pointer;
+}
+.selectCity span{
+    position: relative;
+    top: 5px;
+}
+.selectGuests{
+    display: inline-block;
+    width: 40%;
+    justify-content: left;
+    text-align: left;
+    transition: 0.8s;
+}
+.selectGuests p{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.selectGuests p:nth-child(2){
+    color: #828282;
+}
+.selectGuests span{
+    border: 1px solid #828282;
+    border-radius: 4px;
+    padding: 2px;
+    color: #828282;
+    font-size: 20px;
+    margin: 5px;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+}
+.selectGuests div{
+    text-align: left;
+    position: relative;
+    left: 0;
+    
+}
+.number{
+    font-family: Muli!important;
+    font-style: normal!important;
+    font-weight: bold!important;
+    font-size: 20px!important;
+    line-height: 18px!important;
+    color: #000000!important;
+    border: none!important;
+    position: relative;
+    top: -5px;
+}
+@media only screen and (max-width: 15cm){
+    .stay{
+        padding: 0;
+        margin: 0;
+    }
+}
