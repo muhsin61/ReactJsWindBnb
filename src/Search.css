@@ -10,7 +10,7 @@
     border-radius: 16px;
     margin: 10px;
     width: 297px;
-    height: 55px;
+    height: 56px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,9 +46,19 @@
     display: none;
 }
 input{
-    border: none;
     width: 100%;
     padding: 8px;
+    height: 40px;
+    position: relative;
+    top: -9px;
+    outline: none;
+    border: none;
+}
+input:focus{
+    border: 1px solid #000000;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    outline: none;
 }
 label{
     font-family: Muli;
@@ -59,8 +69,10 @@ label{
     text-transform: uppercase;
     color: #333333;
     position: relative;
-    top: -17px;
-    left: 50px;
+    float: left;
+    top: 10px;
+    left: 5px;
+    z-index: 1;
 }
 .selectCity{
     display: inline-block;
@@ -68,6 +80,9 @@ label{
     text-align: left;
     width: 40%;
     transition: 0.8s;
+    padding:0;
+    margin: 0;
+    z-index: 1;
 }
 .selectCity p{
     font-family: Muli;

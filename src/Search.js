@@ -10,6 +10,7 @@ export default class Search extends Component {
         adult:0 ,
         child:0,
         location: "deneme",
+        searchIcon: false
     }
     handleChange = (event) => {
         this.setState({location: event.target.value})
@@ -73,7 +74,11 @@ export default class Search extends Component {
                         <label>Guests</label>
                         <input type="number" value={this.state.adult + this.state.child} placeholder="Add Guest"></input> 
                     </div>
+                    <div>
+                        
+                    </div>
                     <span onClick={this.getBack} class="material-icons searchIcon">search</span>
+                    
                 </div>
             </div>
                 <div className={this.state.selectInfo}>
