@@ -67,7 +67,7 @@ export default class Search extends Component {
                         </div>
                         
                     </div>
-                    <div>
+                    <div className="selectFeature">
                         <div className="selectCity">
                             <p onClick={()=>{this.setState({location:"Helsinki"})}}><span className="material-icons">location_on</span>Helsinki, Finland</p>
                             <p onClick={()=>{this.setState({location:"Turku"})}}><span className="material-icons">location_on</span>Turku, Finland</p>

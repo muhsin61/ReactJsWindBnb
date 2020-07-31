@@ -57,23 +57,21 @@
 input[type="text"], input[type="number"]{
     width: 30%;
     display: inline-block;
-    padding: 0;
+    padding: 10px;
     margin: 0;
-}
-input{
-    width: 100%;
-    padding: 8px;
-    height: 40px;
-    position: relative;
-    top: -9px;
     outline: none;
     border: none;
+    font-size: 14px;
 }
 input[type="text"]:focus,input[type="number"]:focus{
     border: 1px solid #000000;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
     outline: none;
+}
+input[type="text"]:visited ~ span{
+    display: none!important;
+    border: hotpink 1px solid;
 }
 label{
     font-family: Muli;
@@ -116,7 +114,6 @@ button span{
     transition: 0.8s;
     padding:0;
     margin: 0;
-    z-index: 1;
 }
 .selectCity p{
     font-family: Muli;
@@ -138,7 +135,6 @@ button span{
     width: 40%;
     justify-content: left;
     text-align: left;
-    transition: 0.8s;
 }
 .selectGuests p{
     font-family: Muli;
@@ -182,5 +178,32 @@ button span{
     .stay{
         padding: 0;
         margin: 0;
+    }
+    .input[type="text"]{
+        width: 100%;
+    }
+    .addNew{
+        top: 30px;
+    }
+    .location, .selectCity , .selectGuests{
+        padding: 0;
+        margin: 0;
+    }
+    .selectFeature{
+        display: block;
+        height: 230px;
+
+    }
+    .submit{
+        position: relative;
+        display: block;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        margin: auto 0;
+        bottom: 0;
+    }
+    .submit button{
+        margin-left: 35%;
     }
 }
