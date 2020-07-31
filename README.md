@@ -1,3 +1,5 @@
+Demo: https://codesandbox.io/s/devchallenges-windbnb-qcdfq?file=/public/index.html
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
