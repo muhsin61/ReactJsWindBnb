@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Stays from './Stays.js';
 import Search from './Search.js';
 import stays from './stays.json';
+import ModalImage from "react-basic-modal-image"
 import './App.css';
 
 export default class App extends Component {
@@ -20,7 +21,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <Search select={this.select} ></Search>
+        <ModalImage except={["App-logo","test4 test"]} alt="test1" />        <Search select={this.select} ></Search>
         <div className="name"><p>Stays in Finland</p><p>{stays.length}+ stays</p></div>
         <div>
           {
